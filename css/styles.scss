@@ -36,6 +36,40 @@ img {
   height: auto; /* Højden skal tilpasse sig */
 }
 
+header {
+  background-color: aliceblue;
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    width: auto;
+    height: 80%;
+    margin: 20px 0 0 70px;
+  }
+
+  h1 {
+    color: darkgoldenrod;
+    font-size: 44px;
+    padding: 60px 370px 0 0;
+  }
+}
+
+.middle {
+  padding: 30px;
+  display: flex;
+
+  .tekstboks {
+    width: 50%;
+    padding: 30px;
+
+    h2 {
+      padding-bottom: 10px;
+      font-size: 24px;
+    }
+  }
+}
+
 @media screen and (min-width: 768px) {
   /* Alt der ændres i tablet stående fra mobil */
 }
